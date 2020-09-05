@@ -8,16 +8,17 @@ from algosdk.future.transaction import AssetConfigTxn, AssetTransferTxn, AssetFr
 algod_address = "https://testnet-algorand.api.purestake.io/ps2"
 algod_token = ""
 headers = {
-    "X-API-Key": "EIsWGnsjSt60LfF0cb2vq7aBdgNFDKpT9ABd0iTB",
+    "X-API-Key": "YOUR API KEY HERE",
 }
 
 
 # Initialize an algod client
 algod_client = algod.AlgodClient(algod_token, algod_address, headers)
 
-mnemonic1 = "choose quote blur finish book buddy pepper broom tell neutral drive lake success injury good decide away caution tortoise year pen rhythm insane able daughter"
-mnemonic2 = "action notable arrest tell before smart erupt disease donkey mango mention twist wide myself giant brain always lazy example symbol unusual scatter notable about talent"
-mnemonic3 = "memory away trouble mad rhythm fabric connect have upon shield mixed level small blossom fresh title plunge anger daughter boss farm sick accuse abandon spy"
+# Add your account mnemonics here
+mnemonic1 = "Account 1 Mnemonic"
+mnemonic2 = "Account 2 Mnemonic"
+mnemonic3 = "Account 3 Mnemonic"
 
 # # For ease of reference, add account public and private keys to
 # # an accounts dict.
